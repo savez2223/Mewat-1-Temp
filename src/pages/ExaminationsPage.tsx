@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Calendar, FileText, Clock, AlertCircle } from 'lucide-react';
 
 const ExaminationsPage = () => {

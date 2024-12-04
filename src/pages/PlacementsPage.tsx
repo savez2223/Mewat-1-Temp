@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Building2, Trophy, Users, TrendingUp } from 'lucide-react';
 
 const PlacementsPage = () => {
@@ -26,12 +26,12 @@ const PlacementsPage = () => {
   ];
 
   const topRecruiters = [
-    'https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/4/44/Goldman_Sachs.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/2/2a/Infosys_logo.svg'
+    "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+    "//logotyp.us/file/hero.svg",
+    "//logotyp.us/file/tvs.svg",
   ];
 
   return (

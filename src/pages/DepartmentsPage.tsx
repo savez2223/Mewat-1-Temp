@@ -1,5 +1,4 @@
-import React from 'react';
-import { BookOpen, Users, Beaker, Cpu, Code, Radio, Lightbulb, Building } from 'lucide-react';
+import { BookOpen, Users, Beaker, Cpu, Radio, Lightbulb, Building } from 'lucide-react';
 
 const DepartmentsPage = () => {
   const departments = [

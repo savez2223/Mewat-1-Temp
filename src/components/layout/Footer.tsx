@@ -1,4 +1,3 @@
-import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
@@ -8,45 +7,90 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">MEC</h3>
-            <p className="mb-4">Shaping Tomorrow's Leaders Through Excellence in Education</p>
+            <p className="mb-4">
+              Shaping Tomorrow's Leaders Through Excellence in Education
+            </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-white transition-colors"><Facebook size={20} /></a>
-              <a href="#" className="hover:text-white transition-colors"><Twitter size={20} /></a>
-              <a href="#" className="hover:text-white transition-colors"><Linkedin size={20} /></a>
-              <a href="#" className="hover:text-white transition-colors"><Instagram size={20} /></a>
+              <a href="#" className="hover:text-white transition-colors">
+                <Facebook size={20} />
+              </a>
+              <a href="#" className="hover:text-white transition-colors">
+                <Twitter size={20} />
+              </a>
+              <a href="#" className="hover:text-white transition-colors">
+                <Linkedin size={20} />
+              </a>
+              <a href="#" className="hover:text-white transition-colors">
+                <Instagram size={20} />
+              </a>
             </div>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">
+              Quick Links
+            </h4>
             <ul className="space-y-2">
-              <li><a href="/about" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="/departments" className="hover:text-white transition-colors">Departments</a></li>
-              <li><a href="/admissions" className="hover:text-white transition-colors">Admissions</a></li>
-              <li><a href="/placements" className="hover:text-white transition-colors">Placements</a></li>
+              <li>
+                <a href="/about" className="hover:text-white transition-colors">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/departments"
+                  className="hover:text-white transition-colors"
+                >
+                  Departments
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/admissions"
+                  className="hover:text-white transition-colors"
+                >
+                  Admissions
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/placements"
+                  className="hover:text-white transition-colors"
+                >
+                  Placements
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Contact Info</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">
+              Contact Info
+            </h4>
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <MapPin size={16} />
-                <span>123 College Road, Mewat</span>
+                <span>
+                  Nuh, Mewat
+                  <br />
+                  Haryana, India - 122107
+                </span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span>+91 1234567890</span>
+                <span>+91 9389678954</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span>info@mec.edu</span>
+                <span>info@zuridox.com</span>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Newsletter</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">
+              Newsletter
+            </h4>
             <p className="mb-4">Subscribe to our newsletter for updates</p>
             <form className="space-y-2">
               <input
@@ -61,7 +105,21 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} Mewat Engineering College. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Mewat Engineering College. All
+            rights reserved.
+            <br />
+            Developed by{" "}
+            <a
+              href="https://zuridox.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              Zuridox
+            </a>
+            .
+          </p>
         </div>
       </div>
     </footer>

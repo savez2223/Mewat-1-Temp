@@ -1,4 +1,3 @@
-import React from 'react';
 import { BookOpen, Calendar, FileText, CreditCard } from 'lucide-react';
 
 const AdmissionsPage = () => {
